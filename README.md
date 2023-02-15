@@ -17,3 +17,8 @@ const refreshToeknArry = [
    1. 阿里云盘自动签到
    2. task autoSignin.js
    3. 0 3 0 * * ?
+
+# 其他
+1、要先下载依赖，依赖管理 - NodeJs - 新建依赖 - 名称输入：node-fetch@2
+2、node-fetch@2 只是一个调用http的，如果实在版本差异导致调用失败的，可以换成其他，比如 axios
+![img_1.png](img_1.png)
